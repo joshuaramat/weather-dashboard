@@ -8,9 +8,9 @@
     margin-top: 25px;
     border: solid 1px #cecfd2;
     margin-left: 5%;
-    min-width: 640px;
     padding: 12px 15px 15px 15px;
     height: 40%;
+    text-align: center;
 }
 
 .five-day h2 {
@@ -20,9 +20,38 @@
 
 .card-row {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
 }
 
 span.badge {
     color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+    nav {
+        margin: 1.4em 0;
+    }
+
+    .forecast {
+        display: block;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-row {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    label {
+        text-align: left;
+        flex-wrap: wrap;
+    }
 }
