@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.forecast {
+    margin-top: 25px;
+    border: solid 1px #cecfd2;
+    margin-left: 5%;
+    min-width: 640px;
+    padding: 12px 15px 15px 15px;
+    height: 40%;
+}
+
+.five-day h2 {
+   margin-top: 25px;
+   margin-left: 5%;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+}
+
+span.badge {
+    color: white;
+}
