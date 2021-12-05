@@ -16,7 +16,7 @@ const cardRow = $(".card-row");
 
 let searchHistory = JSON.parse(localStorage.getItem("search")) || [];
 
-const myKey = "536ae704e8408df81b5c26d27f087f6d";
+const myKey = "08e360a6f519dcfb008fb1c001cf1b68";
 
 searchBtn.on("click", function(e) {
     e.preventDefault();
